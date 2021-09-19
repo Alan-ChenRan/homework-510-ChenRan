@@ -36,7 +36,6 @@ void work()
          ctxs[i].id=i;
          ctxs[i].v=0;
     }
-    //printf("2222\n");
     pthread_t* threads=(pthread_t*)malloc(sizeof(pthread_t)*K);
     for(int i=0;i<K;++i)
     {
@@ -44,21 +43,6 @@ void work()
                                   ,add_I,ctxs+i);
          assert(retVal==0);
     }
-    /*printf("3333\n");
-
-    
-    for(int i=0;i<K;++i)
-    {
-         ans_V=ans_V+ctxs[i].v;
-    }
-    printf("%.6lf\n",ans_V);
-
-    printf("4444\n");*/
-    /*for(int i=0;i<K;++i)
-    {
-         void*status=NULL;
-         pthread_join(threads[i],&status);
-    }*/
     for(int i=0;i<K;++i)
     {
          ans_V=ans_V+ctxs[i].v;
@@ -68,11 +52,8 @@ void work()
 int main(int argc,char**argv)
 {
     O=atoi(argv[1]);K=atoi(argv[2]);
-    //printf("%d %d\n",O,K);
     gettimeofday(&start,NULL);
-    //printf("-----\n");
     work();
-    //printf("1111\n");
     gettimeofday(&end,NULL);
     long long ss=start.tv_sec*1000000+start.tv_usec;
     long long ee=end.tv_sec*1000000+end.tv_usec;
