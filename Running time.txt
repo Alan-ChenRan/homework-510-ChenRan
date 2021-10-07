@@ -1,0 +1,98 @@
+NUM_THREADS         total time
+          1                       0.1195050000
+          2                       0.0852220000
+          3                       0.0651990000
+          4                       0.0457060000
+          5                       0.0426290000
+          6                       0.0382100000
+          7                       0.0364000000
+          8                       0.0349120000
+
+
+NUM_Segment = 100000000
+NUM_THREADS = 1
+Running time per thread:
+id: 0 time: 0.1192650000
+ans = 3.1415926636
+total time: 0.1195050000
+yege@yege-virtual-machine:~/桌面/2021.9.12$ ./test.sh 100000000 2
+NUM_Segment = 100000000
+NUM_THREADS = 2
+Running time per thread:
+id: 0 time: 0.0829940000
+id: 1 time: 0.0849110000
+ans = 3.1415926636
+total time: 0.0852220000
+yege@yege-virtual-machine:~/桌面/2021.9.12$ ./test.sh 100000000 3
+NUM_Segment = 100000000
+NUM_THREADS = 3
+Running time per thread:
+id: 0 time: 0.0583160000
+id: 1 time: 0.0649510000
+id: 2 time: 0.0567980000
+ans = 3.1415926636
+total time: 0.0651990000
+yege@yege-virtual-machine:~/桌面/2021.9.12$ ./test.sh 100000000 4
+NUM_Segment = 100000000
+NUM_THREADS = 4
+Running time per thread:
+id: 0 time: 0.0452670000
+id: 1 time: 0.0406520000
+id: 2 time: 0.0423890000
+id: 3 time: 0.0431120000
+ans = 3.1415926636
+total time: 0.0457060000
+yege@yege-virtual-machine:~/桌面/2021.9.12$ ./test.sh 100000000 5
+NUM_Segment = 100000000
+NUM_THREADS = 5
+Running time per thread:
+id: 0 time: 0.0377520000
+id: 1 time: 0.0366510000
+id: 2 time: 0.0398390000
+id: 3 time: 0.0350580000
+id: 4 time: 0.0422530000
+ans = 3.1415926636
+total time: 0.0426290000
+yege@yege-virtual-machine:~/桌面/2021.9.12$ ./test.sh 100000000 6
+NUM_Segment = 100000000
+NUM_THREADS = 6
+Running time per thread:
+id: 0 time: 0.0325180000
+id: 1 time: 0.0358100000
+id: 2 time: 0.0273620000
+id: 3 time: 0.0378590000
+id: 4 time: 0.0358240000
+id: 5 time: 0.0324880000
+ans = 3.1415926636
+total time: 0.0382100000
+yege@yege-virtual-machine:~/桌面/2021.9.12$ ./test.sh 100000000 7
+NUM_Segment = 100000000
+NUM_THREADS = 7
+Running time per thread:
+id: 0 time: 0.0331510000
+id: 1 time: 0.0250470000
+id: 2 time: 0.0300100000
+id: 3 time: 0.0310640000
+id: 4 time: 0.0312560000
+id: 5 time: 0.0330820000
+id: 6 time: 0.0360960000
+ans = 3.1415926636
+total time: 0.0364000000
+yege@yege-virtual-machine:~/桌面/2021.9.12$ ./test.sh 100000000 8
+NUM_Segment = 100000000
+NUM_THREADS = 8
+Running time per thread:
+id: 0 time: 0.0291270000
+id: 1 time: 0.0303530000
+id: 2 time: 0.0291800000
+id: 3 time: 0.0316200000
+id: 4 time: 0.0345970000
+id: 5 time: 0.0322220000
+id: 6 time: 0.0311300000
+id: 7 time: 0.0308970000
+ans = 3.1415926636
+total time: 0.0349120000
+
+
+
+
